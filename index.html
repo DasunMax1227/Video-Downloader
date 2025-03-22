@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <h1 id="animated-text"></h1>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <!-- Main Content (Scrollable) -->
+    <div class="main-wrapper" id="main-content" style="display: none;">
+        <div class="container">
+            <h2>TikTok Video Downloader</h2>
+            <input type="text" id="video_url" placeholder="Enter TikTok video URL">
+            <button onclick="downloadVideo()">Download</button>
+            <div id="result"></div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <p>Contact Dasun Max</p>
+            <a href="https://wa.me/message/FISHZIFTSJGCB1" class="whatsapp-button" target="_blank">
+                Chat on WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
