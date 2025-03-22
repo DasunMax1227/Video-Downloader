@@ -4,9 +4,11 @@
   "description": "TikTok Video Downloader",
   "main": "index.html",
   "scripts": {
-    "start": "python -m http.server 8080"
+    "start": "node server.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {},
   "author": "",
   "license": "ISC"
